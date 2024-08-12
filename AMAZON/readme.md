@@ -1,1 +1,1 @@
-Click here to visit: https://mahi13singh2004.github.io/Clones/Amazon/index.html
+Click here to visit: https://kartavyaverma.github.io/Projects/AMAZON/index.html
