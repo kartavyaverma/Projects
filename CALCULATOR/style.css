@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    overflow: hidden;
+}
+    
+html,body{
+    height:100vh;
+    width:100%;
+}
+
+body{
+    background-image: url(https://graphicriver.img.customer.envatousercontent.com/files/86232890/Calculator%20a%20background590.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=118c4613229b3fd26e5834b0f5d44ff5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;;
+}
+    
+.heading{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    margin-top: 25px;
+    font-size: 5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 17vw;
+    margin: 4vh auto;
+    height: 55vh;
+    background-color: black;
+}
+
+button{
+    padding: 20px;
+    width: 50px;
+    margin: 0 2px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.row{
+    margin: 5px;
+}
+
+input{
+    text-align: center;
+    padding: 10px 19px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-weight: 800;
+}
+
+::placeholder{
+    color: blue;
+    font-size: 17px;
+}
+
+.clear{
+    width: 12vw;
+}
+
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+a{
+    color: #000000;
+    font-size: 2rem;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    color: #000000;
+    font-size: 2rem;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+  }
+
+.last{
+    left: 1rem;
+}
+
